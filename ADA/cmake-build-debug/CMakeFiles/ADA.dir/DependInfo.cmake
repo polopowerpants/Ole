@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Kristian Larsen/Documents/GitHub/Ole/ADA/main.cpp" "C:/Users/Kristian Larsen/Documents/GitHub/Ole/ADA/cmake-build-debug/CMakeFiles/ADA.dir/main.cpp.obj"
+  "C:/Users/klars/Documents/GitHub/Ole/ADA/main.cpp" "C:/Users/klars/Documents/GitHub/Ole/ADA/cmake-build-debug/CMakeFiles/ADA.dir/main.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 

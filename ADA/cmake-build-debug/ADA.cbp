@@ -8,24 +8,24 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/Kristian Larsen/Documents/GitHub/Ole/ADA/cmake-build-debug"/>
+				<Option working_dir="C:/Users/klars/Documents/GitHub/Ole/ADA/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f &quot;C:\Users\Kristian Larsen\Documents\GitHub\Ole\ADA\cmake-build-debug\Makefile&quot; VERBOSE=1 all"/>
-					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Kristian Larsen\Documents\GitHub\Ole\ADA\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Kristian Larsen\Documents\GitHub\Ole\ADA\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Kristian Larsen\Documents\GitHub\Ole\ADA\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Users\klars\Documents\GitHub\Ole\ADA\cmake-build-debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\klars\Documents\GitHub\Ole\ADA\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\klars\Documents\GitHub\Ole\ADA\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\klars\Documents\GitHub\Ole\ADA\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ADA">
-				<Option output="C:/Users/Kristian Larsen/Documents/GitHub/Ole/ADA/cmake-build-debug/ADA.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Kristian Larsen/Documents/GitHub/Ole/ADA/cmake-build-debug"/>
+				<Option output="C:/Users/klars/Documents/GitHub/Ole/ADA/cmake-build-debug/ADA.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/klars/Documents/GitHub/Ole/ADA/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
 				<Compiler>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\ATLMFC\include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
@@ -33,21 +33,21 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f &quot;C:\Users\Kristian Larsen\Documents\GitHub\Ole\ADA\cmake-build-debug\Makefile&quot; VERBOSE=1 ADA"/>
-					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Kristian Larsen\Documents\GitHub\Ole\ADA\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Kristian Larsen\Documents\GitHub\Ole\ADA\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Kristian Larsen\Documents\GitHub\Ole\ADA\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Users\klars\Documents\GitHub\Ole\ADA\cmake-build-debug\Makefile VERBOSE=1 ADA"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\klars\Documents\GitHub\Ole\ADA\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\klars\Documents\GitHub\Ole\ADA\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\klars\Documents\GitHub\Ole\ADA\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ADA/fast">
-				<Option output="C:/Users/Kristian Larsen/Documents/GitHub/Ole/ADA/cmake-build-debug/ADA.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Kristian Larsen/Documents/GitHub/Ole/ADA/cmake-build-debug"/>
+				<Option output="C:/Users/klars/Documents/GitHub/Ole/ADA/cmake-build-debug/ADA.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/klars/Documents/GitHub/Ole/ADA/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="msvc8"/>
 				<Compiler>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\ATLMFC\include"/>
-					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.26.28801\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\include"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"/>
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"/>
@@ -55,37 +55,37 @@
 					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f &quot;C:\Users\Kristian Larsen\Documents\GitHub\Ole\ADA\cmake-build-debug\Makefile&quot; VERBOSE=1 ADA/fast"/>
-					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Kristian Larsen\Documents\GitHub\Ole\ADA\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Kristian Larsen\Documents\GitHub\Ole\ADA\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Kristian Larsen\Documents\GitHub\Ole\ADA\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Users\klars\Documents\GitHub\Ole\ADA\cmake-build-debug\Makefile VERBOSE=1 ADA/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\klars\Documents\GitHub\Ole\ADA\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\klars\Documents\GitHub\Ole\ADA\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\klars\Documents\GitHub\Ole\ADA\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/Kristian Larsen/Documents/GitHub/Ole/ADA/cmake-build-debug"/>
+				<Option working_dir="C:/Users/klars/Documents/GitHub/Ole/ADA/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f &quot;C:\Users\Kristian Larsen\Documents\GitHub\Ole\ADA\cmake-build-debug\Makefile&quot; VERBOSE=1 edit_cache"/>
-					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Kristian Larsen\Documents\GitHub\Ole\ADA\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Kristian Larsen\Documents\GitHub\Ole\ADA\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Kristian Larsen\Documents\GitHub\Ole\ADA\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Users\klars\Documents\GitHub\Ole\ADA\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\klars\Documents\GitHub\Ole\ADA\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\klars\Documents\GitHub\Ole\ADA\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\klars\Documents\GitHub\Ole\ADA\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/Kristian Larsen/Documents/GitHub/Ole/ADA/cmake-build-debug"/>
+				<Option working_dir="C:/Users/klars/Documents/GitHub/Ole/ADA/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="nmake /NOLOGO /f &quot;C:\Users\Kristian Larsen\Documents\GitHub\Ole\ADA\cmake-build-debug\Makefile&quot; VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="nmake /NOLOGO /f &quot;C:\Users\Kristian Larsen\Documents\GitHub\Ole\ADA\cmake-build-debug\Makefile&quot; VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="nmake /NOLOGO /f &quot;C:\Users\Kristian Larsen\Documents\GitHub\Ole\ADA\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
-					<DistClean command="nmake /NOLOGO /f &quot;C:\Users\Kristian Larsen\Documents\GitHub\Ole\ADA\cmake-build-debug\Makefile&quot; VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Users\klars\Documents\GitHub\Ole\ADA\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\klars\Documents\GitHub\Ole\ADA\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\klars\Documents\GitHub\Ole\ADA\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\klars\Documents\GitHub\Ole\ADA\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Kristian Larsen/Documents/GitHub/Ole/ADA/main.cpp">
+		<Unit filename="C:/Users/klars/Documents/GitHub/Ole/ADA/main.cpp">
 			<Option target="ADA"/>
 		</Unit>
-		<Unit filename="C:/Users/Kristian Larsen/Documents/GitHub/Ole/ADA/CMakeLists.txt">
+		<Unit filename="C:/Users/klars/Documents/GitHub/Ole/ADA/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
