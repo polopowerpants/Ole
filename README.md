@@ -1,0 +1,2 @@
+# Ole
+ algoritmer og datastrukturer
