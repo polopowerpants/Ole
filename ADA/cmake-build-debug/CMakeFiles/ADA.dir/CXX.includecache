@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/klars/Documents/GitHub/Ole/ADA/BallsnBins.cpp
+stdlib.h
+-
+iostream
+-
+
+C:/Users/klars/Documents/GitHub/Ole/ADA/main.cpp
+iostream
+-
+BallsnBins.cpp
+C:/Users/klars/Documents/GitHub/Ole/ADA/BallsnBins.cpp
+math.h
+-
+
